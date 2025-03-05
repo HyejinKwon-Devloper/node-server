@@ -1,0 +1,27 @@
+{
+  "name": "node-server",
+  "version": "1.0.0",
+  "description": "nodeserver study",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.ts",
+    "dev": "ts-node main.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/HyejinKwon-Devloper/node-server.git"
+  },
+  "author": "hyejinkwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HyejinKwon-Devloper/node-server/issues"
+  },
+  "homepage": "https://github.com/HyejinKwon-Devloper/node-server#readme",
+  "devDependencies": {
+    "@types/node": "^22.13.9",
+    "nodemon": "^3.1.9",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}
